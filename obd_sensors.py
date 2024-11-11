@@ -23,8 +23,8 @@
 # Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
 ###########################################################################
 
-def hex_to_int(str):
-    i = eval("0x" + str, {}, {})
+def hex_to_int(s):
+    i = int(s, 16)
     return i
 
 def maf(code):
